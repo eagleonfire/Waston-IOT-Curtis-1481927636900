@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Waston-IOT-Curtis
+  host: Waston-IOT-Curtis
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  - Waston-IOT-Curtis-cloudantNoSQLDB
+  - Waston-IOT-Curtis-iotf-service
